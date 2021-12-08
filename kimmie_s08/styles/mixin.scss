@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+
+@mixin box-styles(){
+	display: block;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+@mixin picture-display-style($max-width,$max-height,$rounded-corners){
+    border-radius: $rounded-corners;
+    max-width: $max-width;
+    max-height: $max-height
+}
+
+.dice{
+    margin: 10px;
+    img{
+        @include picture-display-style(100px, 100px, 10px);
+    }
+}
+
+.profile{
+    img{
+        @include picture-display-style(125px, 125px, 10px);
+    }
+}

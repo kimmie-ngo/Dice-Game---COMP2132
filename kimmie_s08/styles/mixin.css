@@ -1,0 +1,14 @@
+.dice {
+  margin: 10px;
+}
+.dice img {
+  border-radius: 10px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.profile img {
+  border-radius: 10px;
+  max-width: 125px;
+  max-height: 125px;
+}
